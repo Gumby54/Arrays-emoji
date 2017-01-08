@@ -2,8 +2,13 @@
 
 import UIKit
 
-//var str = "Hello, playgrou
-var birthYear = 1999
-if birthYear < 2000 {
-print ( "you were born in the 20th century")
-} else {print ("you were born in the 21st Century")}
+
+var age = 26
+var weight = 185.45
+
+Double(age) * weight
+
+
+
+
+8 / 5

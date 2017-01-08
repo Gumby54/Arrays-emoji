@@ -3,14 +3,18 @@
 //  Class13 test
 //
 //  Created by Gilles Prescott on 2017-01-07.
-//  Copyright © 2017 Gilles Prescott. All rights reserved.
-//
+//  Copyright © 2017 Gilles Prescott. All rights reserved. to me
 //
 
 import UIKit
 
 class ViewController: UIViewController {
     var tapCount = 0
+    
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     @IBAction func redButton(_ sender: Any) { self.view.backgroundColor = UIColor.red
         
  tapCount += 1
